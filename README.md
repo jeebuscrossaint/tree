@@ -29,28 +29,16 @@ Use `-S` for ASCII fallback (`|--`, `` `-- ``, `|`) when needed for compatibilit
 The easiest way to install is using [Scoop](https://scoop.sh):
 
 ```powershell
-# Create a local bucket for personal apps
-mkdir ~\scoop-bucket
-cd ~\scoop-bucket
-git init
-
-# Copy the manifest from this repo
-cp path\to\tree.json .\tree.json
-git add tree.json
-git commit -m "Add tree"
-
-# Add bucket and install
-scoop bucket add myapps ~\scoop-bucket
-scoop install myapps/tree
+scoop bucket add tree https://github.com/jeebuscrossaint/tree
+scoop update
+scoop install tree
 ```
-
-See [INSTALL.md](INSTALL.md) for more installation options including manual installation and GitHub releases setup.
 
 ## Building
 
 ### Requirements
-- CMake 4.1+
-- MinGW with GCC (C++20 support)
+- CMake
+- MinGW with GCC
 - Windows 10+
 
 ### Build Instructions
