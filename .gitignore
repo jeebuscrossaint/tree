@@ -40,3 +40,5 @@ Testing/
 *.bak
 *.log
 
+# Scoop
+tree-local.json

@@ -1,0 +1,22 @@
+{
+    "version": "1.0.0",
+    "description": "A 1:1 implementation of the Linux tree command for Windows",
+    "homepage": "https://github.com/jeebuscrossaint/tree",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/jeebuscrossaint/tree/releases/download/v1.0.0/tree.exe",
+            "hash": "TO_BE_FILLED_AFTER_RELEASE"
+        }
+    },
+    "bin": "tree.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/jeebuscrossaint/tree/releases/download/v$version/tree.exe"
+            }
+        }
+    }
+}
+
