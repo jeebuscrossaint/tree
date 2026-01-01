@@ -5,7 +5,7 @@
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/jeebuscrossaint/tree/releases/download/v1.0.0/tree.exe",
+            "url": "https://github.com/jeebuscrossaint/tree/releases/download/1.0.0/tree.exe",
             "hash": "6502529f8bea7be18d680864fdfeeecc9c8d6af284e0c656da19e18e1f4e95fe"
         }
     },
@@ -14,7 +14,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/jeebuscrossaint/tree/releases/download/v$version/tree.exe"
+                "url": "https://github.com/jeebuscrossaint/tree/releases/download/$version/tree.exe"
             }
         }
     }
