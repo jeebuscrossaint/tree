@@ -9,7 +9,17 @@
             "hash": "6502529f8bea7be18d680864fdfeeecc9c8d6af284e0c656da19e18e1f4e95fe"
         }
     },
-    "bin": "tree.exe",
+    "bin": [
+        "tree.exe",
+        ["tree.exe", "ltree"]
+    ],
+    "notes": [
+        "Windows has a built-in 'tree.com' that may take priority over this command.",
+        "If 'tree' doesn't work, try 'ltree' instead, or add an alias:",
+        "  Set-Alias -Name tree -Value ltree -Option AllScope",
+        "To make the alias permanent, add it to your PowerShell profile:",
+        "  notepad $PROFILE"
+    ],
     "checkver": "github",
     "autoupdate": {
         "architecture": {
