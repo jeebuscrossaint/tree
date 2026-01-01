@@ -6,7 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/jeebuscrossaint/tree/releases/download/v1.0.0/tree.exe",
-            "hash": "TO_BE_FILLED_AFTER_RELEASE"
+            "hash": "6502529f8bea7be18d680864fdfeeecc9c8d6af284e0c656da19e18e1f4e95fe"
         }
     },
     "bin": "tree.exe",
