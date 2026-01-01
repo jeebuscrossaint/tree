@@ -1,1 +1,42 @@
-cmake-build-debug/
+# Build directories
+cmake-build-*/
+build/
+out/
+
+# CMake files
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+cmake_install.cmake
+install_manifest.txt
+CTestTestfile.cmake
+Makefile
+
+# Compiled executables
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Object files
+*.o
+*.obj
+*.a
+*.lib
+
+# IDE files
+.vs/
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Test directories
+Testing/
+
+# Temporary files
+*.tmp
+*.bak
+*.log
+
